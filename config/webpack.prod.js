@@ -78,7 +78,7 @@ module.exports = env => {
         inject: true,
         title: "Link's Journal"
       }),
-      // new MinifyPlugin()
+      new MinifyPlugin(),
       new UglifyJSPlugin()
     ]
   }
