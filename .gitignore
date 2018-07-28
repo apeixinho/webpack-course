@@ -1,5 +1,5 @@
 node_modules
 *.log
 yarn.lock
-dist/
+dist
 package-lock.json
